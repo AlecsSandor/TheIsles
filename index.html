@@ -37,6 +37,10 @@
   #video {
     height: auto;
     width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   .content {
     position: absolute;
@@ -72,10 +76,19 @@
   }
 
      /* Media Query for Mobile Devices */
-     @media only screen and (max-width: 1100px) {
+     @media only screen and (max-width: 1400px) {
     #video {
       height: 100%;
       width: auto;
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+
+    .content {
+      max-width: 90%;
+      top: 50%;
     }
   }
 </style>
@@ -98,7 +111,7 @@
 <div class="footnote">
     <a href="https://sandoralecs.gumroad.com/l/theisles" class="button" target="_blank" download>Download</a>  
     <p style="font-size: 10px;">for MacOS</p>
-    <p>Copyright &copy; 2024 Veswip - Alex Sandor</p>
+    <p>Copyright &copy; 2024 <a href="https://www.veswip.com" style="color: white;">Veswip</a> - Alex Sandor</p>
 </div>
 
 </body>
